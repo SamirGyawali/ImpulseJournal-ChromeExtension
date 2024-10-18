@@ -1,0 +1,71 @@
+:root{
+    --primary-color: #0F6C9F;
+    --background-color: #F8FBFF;
+    --fill-color: #E7EDF7;
+    --neutral-color: #959595;
+  
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+html, body{
+    background-color: #F8FBFF;
+    overflow-y:hidden;
+    height: 844px;
+    width: 390px;
+}
+
+@font-face {
+    font-family: sf-pro;
+    src: url(./fonts/SF-Pro.ttf);
+}
+@font-face {
+    font-family: display-bold;
+    src: url(./fonts/SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+    font-family: rounded-ultralight;
+    src: url(./fonts/SF-Pro-Rounded-Ultralight.otf);
+}
+@font-face {
+    font-family: rounded-thin;
+    src: url(./fonts/SF-Pro-Rounded-Thin.otf);
+}
+@font-face {
+    font-family: rounded-semibold;
+    src: url(./fonts/SF-Pro-Rounded-Semibold.otf);
+}
+@font-face {
+    font-family: rounded-regular;
+    src: url(./fonts/SF-Pro-Rounded-Regular.otf);
+}
+@font-face {
+    font-family: rounded-medium;
+    src: url(./fonts/SF-Pro-Rounded-Medium.otf);
+}
+@font-face {
+    font-family: rounded-light;
+    src: url(./fonts/SF-Pro-Rounded-Light.otf);
+}
+@font-face {
+    font-family: rounded-heavy;
+    src: url(./fonts/SF-Pro-Rounded-Heavy.otf);
+}
+@font-face {
+    font-family: rounded-bold;
+    src: url(./fonts/SF-Pro-Rounded-Bold.otf);
+}
+@font-face {
+    font-family: rounded-black;
+    src: url(./fonts/SF-Pro-Rounded-Black.otf);
+}
