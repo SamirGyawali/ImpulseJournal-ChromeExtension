@@ -1,8 +1,8 @@
-##commands
+# commands
 npm run dev = for development mode meaning, you're building
 npm run build = for production mode
 
-##Tools installed Commands
+## Tools installed Commands
 npm install --save-dev webpack webpack-cli
 npm install --save-dev mini-css-extract-plugin svg-url-loader
 npm install --save-dev html-webpack-plugin
@@ -13,13 +13,17 @@ npm install --save-dev babel-loader @babel/core @babel/preset-env @babel/preset-
 npm install --save-dev sass-loader sass
 npm install --save-dev css-loader
 
+### CLI WEBpack
+npm install --save-dev webpack webpack-cli
+npm install react react-dom
 
 
-### Resources
+#### Resources
 https://github.com/tventures02/tidisventures/blob/main/react-chrome-ext/webpack.dev.js
 https://www.youtube.com/watch?v=eN5eomaACDk&t=246s
 
 
-##CLI WEBpack
-npm install --save-dev webpack webpack-cli
-npm install react react-dom
+
+##### folder helps
+dist = development
+build = production (completed)
