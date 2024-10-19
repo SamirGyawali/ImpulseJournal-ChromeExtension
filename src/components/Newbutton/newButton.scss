@@ -1,0 +1,21 @@
+.button{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: var(--fill-color);
+    border-radius: 10px;
+    height: 29px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-family: "rounded-bold";
+    border: none;
+    margin-top: 15px;
+    img{
+        width: 17px;
+        height: 17px;
+        margin-right: 10px;
+    }
+}

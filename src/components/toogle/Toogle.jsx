@@ -3,7 +3,7 @@ import { useState } from "react";
 import './toogle.scss';
 
 const Toggle = () => {
-    const [isChecked, setIsChecked] = useState(false);
+    const [isChecked, setIsChecked] = useState(true);
     const handleToggle = ()=>{
         setIsChecked(!isChecked);
     };

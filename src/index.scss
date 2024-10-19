@@ -19,9 +19,11 @@
   
 html, body{
     background-color: #F8FBFF;
-    overflow-y:hidden;
-    height: 817px;
-    width: 452px;
+    overflow:hidden;
+    height: 600px;
+    width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 @font-face {

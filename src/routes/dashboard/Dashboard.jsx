@@ -1,6 +1,8 @@
 import React from 'react';
 import './dashboard.scss';
-import Toogle from '../../components/Toogle';
+import Toogle from '../../components/toogle/Toogle';
+import NewButton from '../../components/Newbutton/NewButton';
+import SearchButton from '../../components/SearchButton/SearchButton';
 
 const Dashboard = () => {
     return (
@@ -13,7 +15,7 @@ const Dashboard = () => {
                         <span>Mindful Reminder</span>
                     </div>
                 </div>
-                <img src="../../assets/user.png" alt="" />
+                <img src="../../assets/user2.png" alt="" />
             </div>
             <div className="stats">
                 <div className="totalEntries">
@@ -28,6 +30,14 @@ const Dashboard = () => {
                     <span className='title'>Pleasure Driven</span>
                     <span className='pleasure block'>15</span>
                 </div>
+            </div>
+            <div className="buttonWrapper">
+                    <NewButton text="NEW IMPULSE" fontClass="fontImpulse"/>
+                    <SearchButton text="Search by keyword" imgSrc={"../../assets/search.png"}/>
+            </div>
+            <div className="dayFilters">
+                <span className="day">Today</span>
+                <span className="day inactive">Last 7 days</span>
             </div>
         </div>
     );
