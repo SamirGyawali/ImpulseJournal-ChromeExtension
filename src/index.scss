@@ -27,10 +27,6 @@ html, body{
 }
 
 @font-face {
-    font-family: sf-pro;
-    src: url(./fonts/SF-Pro.ttf);
-}
-@font-face {
     font-family: display-bold;
     src: url(./fonts/SF-Pro-Display-Bold.otf);
 }
@@ -66,8 +62,4 @@ html, body{
 @font-face {
     font-family: rounded-bold;
     src: url(./fonts/SF-Pro-Rounded-Bold.otf);
-}
-@font-face {
-    font-family: rounded-black;
-    src: url(./fonts/SF-Pro-Rounded-Black.otf);
 }

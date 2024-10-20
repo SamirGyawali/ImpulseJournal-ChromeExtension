@@ -1,0 +1,36 @@
+.listComponent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 210px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    &::-webkit-scrollbar{
+        scrollbar-width: thin;
+    }
+    .dateTime{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 3px;
+        .date, .time{
+            font-family: "rounded-semibold";
+            font-size: 11px;
+            color: var(--neutral-color);
+        }
+    }
+    .textCollections{
+        .title{
+            font-family: "display-bold";
+            font-size: 14px;
+        }
+        .description{
+            font-family: "rounded-regular";
+            font-size: 13px;
+        }
+    }
+    .showMore{
+        font-family: "rounded-semibold";
+        color: var(--neutral-color);
+        cursor: pointer;
+    }
+}

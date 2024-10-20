@@ -3,6 +3,7 @@ import './dashboard.scss';
 import Toogle from '../../components/toogle/Toogle';
 import NewButton from '../../components/Newbutton/NewButton';
 import SearchButton from '../../components/SearchButton/SearchButton';
+import ListComponent from '../../components/ListComponent/ListComponent';
 
 const Dashboard = () => {
     return (
@@ -39,6 +40,7 @@ const Dashboard = () => {
                 <span className="day">Today</span>
                 <span className="day inactive">Last 7 days</span>
             </div>
+            <ListComponent />
         </div>
     );
 };
