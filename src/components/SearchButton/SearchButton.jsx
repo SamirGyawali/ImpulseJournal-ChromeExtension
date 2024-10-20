@@ -5,8 +5,10 @@ const SearchButton = ({text, imgSrc}) => {
     return (
 
         <div className="buttonContainer">
-            {imgSrc && <img src={imgSrc} alt="Button Icon" className='buttonIcon'/>}
-            <input type="search" className='searchButton' placeholder={text}/>
+            <input type="search" className='searchBar' placeholder={text}/>
+            <button>
+                {imgSrc && <img src={imgSrc} alt="Button Icon" className='buttonIcon'/>}
+            </button>
         </div>
     );
 };

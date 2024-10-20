@@ -34,6 +34,7 @@
       width: 60px;
       height: 60px;
       border-radius: 50%;
+      cursor: pointer;
     }
   }
   .stats {
@@ -72,6 +73,7 @@
       color: var(--primary-color);
       font-family: "rounded-heavy";
       font-size: 14px;
+      cursor: pointer;
     }
     .inactive{
       color: #959595;
