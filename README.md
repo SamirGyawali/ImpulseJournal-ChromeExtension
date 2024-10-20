@@ -1,6 +1,6 @@
 # Impulse Journal🌿
 
-Welcome to Mindful Reminder, a dashboard designed to help you track your impulses and bring mindfulness to your daily actions. Whether it's catching yourself in moments of attention-seeking or noticing when you're driven by pleasure, this app gently helps you stay aware of your tendencies and mind attacks to distract form your mindfulness practice.
+Welcome to Impulse Journal, a browser extension designed to help you track your impulses and bring mindfulness to your daily actions. Whether it's catching yourself in moments of attention-seeking or noticing when you're driven by pleasure, this app gently helps you stay aware of your tendencies and mind attacks that distracts you from your mindfulness practice.
 
 
 ## 🌟 Features
