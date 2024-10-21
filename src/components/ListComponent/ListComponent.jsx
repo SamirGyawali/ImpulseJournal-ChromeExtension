@@ -36,8 +36,8 @@ const ListComponent = () => {
                 <span className="date">2024/10/25</span><span className="time">2:00 pm</span>
             </div>
             <div className="textCollections">
-                <h4 className="title">Trying to do something on github</h4>
-                <span className="description">To get attention from someone.</span>
+                <h4 className="title">Fear or Maybe resistance</h4>
+                <span className="description">Resistance to do something at work.</span>
             </div>
         </div>
         <div className="textWrapper">
@@ -45,8 +45,8 @@ const ListComponent = () => {
                 <span className="date">2024/10/25</span><span className="time">2:27 pm</span>
             </div>
             <div className="textCollections">
-                <h4 className="title">Trying to do something on github</h4>
-                <span className="description">To get attention from someone.</span>
+                <h4 className="title">Sleeping Tendency</h4>
+                <span className="description">Get sleep it's all useless anyway, small voice.</span>
             </div>
         </div>
         <div className="textWrapper">
@@ -54,8 +54,8 @@ const ListComponent = () => {
                 <span className="date">2024/10/25</span><span className="time">2:45 pm</span>
             </div>
             <div className="textCollections">
-                <h4 className="title">Trying to do something on github</h4>
-                <span className="description">To get attention from someone.</span>
+                <h4 className="title">Aru ma dosh dekhne</h4>
+                <span className="description">Aru ma dosh dekhne tendency coming up so intense.</span>
             </div>
         </div>
         <span className="showMore">Show more...</span>
