@@ -14,11 +14,10 @@ Welcome to Impulse Journal, a browser extension designed to help you track your 
 
 ## 🎨 UI Design
 This dashboard is all about simplicity and clarity. Here's a sneak peek of how it looks:
-( DashBoard )
-![image](https://github.com/user-attachments/assets/9b417704-a314-4d5a-aa46-d6a191bd2591)
 
-( HomePage )
+![image](https://github.com/user-attachments/assets/9b417704-a314-4d5a-aa46-d6a191bd2591)
 ![image](https://github.com/user-attachments/assets/3f0c111f-1fce-4ecb-9904-b5a1f92a3b75)
+
 
 ## 🚀 How to Use
 Clone the repository to your local machine
