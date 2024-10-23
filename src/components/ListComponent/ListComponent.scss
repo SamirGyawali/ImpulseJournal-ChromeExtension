@@ -32,5 +32,8 @@
         font-family: "rounded-semibold";
         color: var(--neutral-color);
         cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
     }
 }

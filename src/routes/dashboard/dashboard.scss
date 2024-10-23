@@ -79,6 +79,10 @@
     }
     .inactive{
       color: #959595;
+      &:hover{
+        text-decoration: underline;
+      }
+      
     }
   }
 }

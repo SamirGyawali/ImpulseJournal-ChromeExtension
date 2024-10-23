@@ -4,8 +4,14 @@ import Toogle from '../../components/toogle/Toogle';
 import NewButton from '../../components/Newbutton/NewButton';
 import SearchButton from '../../components/SearchButton/SearchButton';
 import ListComponent from '../../components/ListComponent/ListComponent';
+import { useNavigate } from 'react-router-dom';
+
 
 const Dashboard = () => {
+    const navigate = useNavigate();
+    const goToHomepage = () => {
+        navigate('/');
+    };
     return (
         <div className='dashboard'>
             <div className="profileWrapper">
@@ -33,7 +39,7 @@ const Dashboard = () => {
                 </div>
             </div>
             <div className="buttonWrapper">
-                    <NewButton text="NEW IMPULSE" fontClass="fontImpulse"/>
+                    <NewButton text="NEW IMPULSE" fontClass="fontImpulse" onClick={goToHomepage}/>
                     <SearchButton text="Search by keyword" imgSrc={"../../assets/search.png"}/>
             </div>
             <div className="dayFilters">
